@@ -17,21 +17,9 @@
         </a>
     {% endif %}
 
-    {% if site.instagram %}
-        <a class="link" data-title="instagram.com/{{ site.instagram }}" href="http://instagram.com/{{ site.instagram }}" target="_blank">
-            <svg class="icon icon-instagram"><use xlink:href="#icon-instagram"></use></svg>
-        </a>
-    {% endif %}
-
     {% if site.pinterest %}
         <a class="link" data-title="pinterest.com/{{ site.pinterest }}" href="http://pinterest.com/{{ site.pinterest }}" target="_blank">
             <svg class="icon icon-pinterest"><use xlink:href="#icon-pinterest"></use></svg>
-        </a>
-    {% endif %}
-
-    {% if site.linkedin %}
-        <a class="link" data-title="linkedin.com/in/{{ site.linkedin }}" href="http://linkedin.com/in/{{ site.linkedin }}" target="_blank">
-            <svg class="icon icon-linkedin"><use xlink:href="#icon-linkedin"></use></svg>
         </a>
     {% endif %}
 
@@ -65,6 +53,12 @@
         </a>
     {% endif %}
 
+    {% if site.linkedin %}
+        <a class="link" data-title="linkedin.com/in/{{ site.linkedin }}" href="http://linkedin.com/in/{{ site.linkedin }}" target="_blank">
+            <svg class="icon icon-linkedin"><use xlink:href="#icon-linkedin"></use></svg>
+        </a>
+    {% endif %}
+
     {% if site.stackoverflow %}
         <a class="link" data-title="stackoverflow.com/users/{{ site.stackoverflow }}" href="http://stackoverflow.com/users/{{ site.stackoverflow }}" target="_blank">
             <svg class="icon icon-stackoverflow"><use xlink:href="#icon-stackoverflow"></use></svg>
@@ -83,9 +77,21 @@
         </a>
     {% endif %}
 
+		{% if site.hackernews %}
+        <a class="link" data-title="news.ycombinator.com/user?id=/{{ site.hackernews }}" href="https://news.ycombinator.com/user?id={{ site.hackernews }}" target="_blank">
+            <svg class="icon icon-hackernews"><use xlink:href="#icon-hackernews"></use></svg>
+        </a>
+    {% endif %}
+
     {% if site.medium %}
         <a class="link" data-title="medium.com/@{{ site.medium }}" href="https://medium.com/@{{ site.medium }}" target="_blank">
             <svg class="icon icon-medium"><use xlink:href="#icon-medium"></use></svg>
+        </a>
+    {% endif %}
+
+    {% if site.virgool %}
+        <a class="link" data-title="virgool.io/@{{ site.virgool }}" href="https://virgool.io/@{{ site.virgool }}" target="_blank">
+            <svg class="icon icon-virgool"><use xlink:href="#icon-virgool"></use></svg>
         </a>
     {% endif %}
 
@@ -101,12 +107,6 @@
         </a>
     {% endif %}
 
-    {% if site.goodreads %}
-        <a class="link" data-title="goodreads.com/user/show/{{ site.goodreads }}" href="https://goodreads.com/user/show/{{ site.goodreads }}" target="_blank">
-            <svg class="icon icon-goodreads"><use xlink:href="#icon-goodreads"></use></svg>
-        </a>
-    {% endif %}
-
     {% if site.keybase %}
         <a class="link" data-title="keybase.io/{{ site.keybase }}" href="https://keybase.io/{{ site.keybase }}" target="_blank">
             <svg class="icon icon-keybase"><use xlink:href="#icon-keybase"></use></svg>
@@ -119,9 +119,15 @@
         </a>
     {% endif %}
 
-    {% if site.soundcloud %}
-        <a class="link" data-title="soundcloud.com/{{ site.soundcloud }}" href="https://soundcloud.com/{{ site.soundcloud }}" target="_blank">
-            <svg class="icon icon-soundcloud"><use xlink:href="#icon-soundcloud"></use></svg>
+    {% if site.goodreads %}
+        <a class="link" data-title="goodreads.com/user/show/{{ site.goodreads }}" href="https://goodreads.com/user/show/{{ site.goodreads }}" target="_blank">
+            <svg class="icon icon-goodreads"><use xlink:href="#icon-goodreads"></use></svg>
+        </a>
+    {% endif %}
+
+    {% if site.instagram %}
+        <a class="link" data-title="instagram.com/{{ site.instagram }}" href="http://instagram.com/{{ site.instagram }}" target="_blank">
+            <svg class="icon icon-instagram"><use xlink:href="#icon-instagram"></use></svg>
         </a>
     {% endif %}
 
@@ -131,15 +137,10 @@
         </a>
     {% endif %}
 
-		{% if site.hackernews %}
-        <a class="link" data-title="news.ycombinator.com/user?id=/{{ site.hackernews }}" href="https://news.ycombinator.com/user?id={{ site.hackernews }}" target="_blank">
-            <svg class="icon icon-hackernews"><use xlink:href="#icon-hackernews"></use></svg>
+    {% if site.soundcloud %}
+        <a class="link" data-title="soundcloud.com/{{ site.soundcloud }}" href="https://soundcloud.com/{{ site.soundcloud }}" target="_blank">
+            <svg class="icon icon-soundcloud"><use xlink:href="#icon-soundcloud"></use></svg>
         </a>
     {% endif %}
 
-    {% if site.virgool %}
-        <a class="link" data-title="virgool.io/@{{ site.virgool }}" href="https://virgool.io/@{{ site.virgool }}" target="_blank">
-            <svg class="icon icon-virgool"><use xlink:href="#icon-virgool"></use></svg>
-        </a>
-    {% endif %}
 </div>
