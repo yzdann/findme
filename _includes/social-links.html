@@ -37,6 +37,12 @@
         </a>
     {% endif %}
 
+    {% if site.keybase %}
+        <a class="link" data-title="keybase.io/{{ site.keybase }}" href="https://keybase.io/{{ site.keybase }}" target="_blank">
+            <svg class="icon icon-keybase"><use xlink:href="#icon-keybase"></use></svg>
+        </a>
+    {% endif %}
+
     {% if site.email %}
         <a class="link" data-title="{{ site.email }}" href="mailto:{{ site.email }}"  rel="noopener" alt="anchor link for email" aria-label="anchor link for email">
             <i class="fa-regular fa-envelope"></i>
