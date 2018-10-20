@@ -31,6 +31,12 @@
         </a>
     {% endif %}
 
+    {% if site.goodreads %}
+        <a class="link" data-title="goodreads.com/user/show/{{ site.goodreads }}" href="https://goodreads.com/user/show/{{ site.goodreads }}" target="_blank">
+            <svg class="icon icon-goodreads"><use xlink:href="#icon-goodreads"></use></svg>
+        </a>
+    {% endif %}
+
     {% if site.email %}
         <a class="link" data-title="{{ site.email }}" href="mailto:{{ site.email }}"  rel="noopener" alt="anchor link for email" aria-label="anchor link for email">
             <i class="fa-regular fa-envelope"></i>
