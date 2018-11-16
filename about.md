@@ -23,6 +23,5 @@ layout: page
 	<li>Fabric</li>
 	<li>TDD</li>
 	<li>Scrum and XP</li>
-	<li>TDD e Continuous Integration</li>
 </ul>
 
