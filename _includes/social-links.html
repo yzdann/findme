@@ -33,7 +33,7 @@
 
     {% if site.stackoverflow %}
         <a class="link" data-title="stackoverflow.com/users/{{ site.stackoverflow }}" href="http://stackoverflow.com/users/{{ site.stackoverflow }}" target="_blank"  rel="noopener" alt="anchor link for stackoverflow" aria-label="anchor link for stackoverflow">
-            <i class="fa-brands fa-stackoverflow"></i>
+            <i class="fa-brands fa-stack-overflow"></i>
         </a>
     {% endif %}
 
@@ -46,6 +46,12 @@
     {% if site.unsplash %}
         <a class="link" data-title="unsplash.com/{{ site.unsplash }}" href="https://unsplash.com/{{ site.unsplash }}" target="_blank"  rel="noopener" alt="anchor link for unsplash" aria-label="anchor link for unsplash">
             <i class="fa-brands fa-unsplash"></i>
+        </a>
+    {% endif %}
+
+    {% if site.substack %}
+        <a class="link" data-title="substack.com/@{{ site.substack }}" href="http://substack.com/@{{ site.substack }}" target="_blank"  rel="noopener" alt="anchor link for substack" aria-label="anchor link for substack">
+            <i class="fa-solid fa-bookmark"></i>
         </a>
     {% endif %}
 
