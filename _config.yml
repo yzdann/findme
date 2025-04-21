@@ -1,9 +1,9 @@
 # main text of home
-name: Yazdan 
-bio: A free software enthusiast :) 
+name: Yazdan
+bio: A free software enthusiast :)
 
 # twitter summary info
-description: Kinda blog 
+description: Kinda blog
 
 # if it's an external image, update below for true
 # better with square images
@@ -12,11 +12,11 @@ picture: assets/images/profile.jpg
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
-resume: false 
+resume: false
 # resume-external: true
 # resume-url: https://google.com/?q=my+resume
 
-url: https://yzdann.github.io/findme 
+url: https://yzdann.github.io/findme
 # your url: http://USERNAME.github.io
 
 permalink: /:title/
@@ -37,24 +37,24 @@ permalink: /:title/
 # facebook: myfacebook
 # twitter: mytwitter
 # google: mygoogle
-#instagram: yzdann 
+# instagram: yzdann
 # pinterest: mypinterest
-linkedin: yzdann 
+linkedin: yzdann
 # youtube: myyoutube
 # spotify: myspotify
-github: yzdann 
-gitlab: yzdann 
+github: yzdann
+#gitlab: yzdann
 # lastfm: mylastfm
 stackoverflow: 8875613/yzdann
 # quora: userquora
-reddit: yzdann 
-medium: yzdann 
+# reddit: yzdann
+# medium: yzdann
 # vimeo: myvimeo
 # lanyrd: mylanyrd
-goodreads: 65359026-yzdann 
-#keybase: yzdann 
-soundcloud: yzdann 
-unsplash: yzdann 
+goodreads: 65359026-yzdann
+# keybase: yzdann
+# soundcloud: yzdann
+unsplash: yzdann
 #hackernews: yzdann
 #virgool: yzdann
 email: yzdannn@gmail.com
@@ -87,7 +87,7 @@ projects: true
 
 # if you don't need "about" or "blog", comment them out below
 about: true
-blog: false 
+blog: false
 
 # do you want to show the "read time" of the posts?
 read-time: true
@@ -102,7 +102,7 @@ related: true
 post-advance-links: [blog]
 
 # show author block at the end of a post ?
-show-author: false 
+show-author: false
 
 # do you want some animations?
 animation: true
