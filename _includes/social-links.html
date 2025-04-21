@@ -1,20 +1,15 @@
+<!-- To add more icons, duplicate a section and find yout icon here -> https://fontawesome.com/v6.0/icons -->
+
 <div class="social-links">
     {% if site.facebook %}
-        <a class="link" data-title="facebook.com/{{ site.facebook }}" href="http://facebook.com/{{ site.facebook }}" target="_blank">
-            <svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg>
+        <a class="link" data-title="facebook.com/{{ site.facebook }}" href="https://facebook.com/{{ site.facebook }}" target="_blank" rel="noopener" alt="anchor link for social media facebook" aria-label="anchor link for social media facebook">
+            <i class="fa-brands fa-facebook"></i>
         </a>
     {% endif %}
 
     {% if site.twitter %}
-        <a class="link" data-title="twitter.com/{{ site.twitter }}" href="http://twitter.com/{{ site.twitter }}" target="_blank">
-            <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
-        </a>
-    {% endif %}
-
-    {% if site.google %}
-        <a class="link" data-title="plus.google.com/+{{ site.google }}" href="http://plus.google.com/+{{ site.google }}" target="_blank">
-            <svg class="icon icon-google"><use xlink:href="#icon-google"></use></svg>
-        </a>
+        <a class="link" data-title="twitter.com/{{ site.twitter }}" href="https://twitter.com/{{ site.twitter }}" target="_blank" rel="noopener" alt="anchor link for social media twitter" aria-label="anchor link for social media twitter">
+            <i class="fa-brands fa-x-twitter"></i>
     {% endif %}
 
     {% if site.pinterest %}
@@ -114,8 +109,8 @@
     {% endif %}
 
     {% if site.email %}
-        <a class="link" data-title="{{ site.email }}" href="mailto:{{ site.email }}">
-            <svg class="icon icon-mail"><use xlink:href="#icon-mail"></use></svg>
+        <a class="link" data-title="{{ site.email }}" href="mailto:{{ site.email }}"  rel="noopener" alt="anchor link for email" aria-label="anchor link for email">
+            <i class="fa-regular fa-envelope"></i>
         </a>
     {% endif %}
 
@@ -124,6 +119,13 @@
             <svg class="icon icon-goodreads"><use xlink:href="#icon-goodreads"></use></svg>
         </a>
     {% endif %}
+
+    {% if site.goodreads %}
+        <a class="link" data-title="goodreads.com/user/show/{{ site.goodreads }}" href="https://goodreads.com/user/show/{{ site.goodreads }}" target="_blank">
+            <svg class="icon icon-goodreads"><use xlink:href="#icon-goodreads"></use></svg>
+        </a>
+    {% endif %}
+
 
     {% if site.instagram %}
         <a class="link" data-title="instagram.com/{{ site.instagram }}" href="http://instagram.com/{{ site.instagram }}" target="_blank">
